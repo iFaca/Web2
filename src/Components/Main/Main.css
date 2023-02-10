@@ -1,0 +1,19 @@
+.head {
+  background-image: url(../../Assets/Img/buildings-1840440_1920.jpg);
+  height: 1024px;
+  background-repeat: no-repeat;
+}
+.nav-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.slogan {
+  font-family: "Bai Jamjuree";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
