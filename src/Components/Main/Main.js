@@ -12,7 +12,10 @@ const Main = () => {
   return (
     <div className="head">
       <div className="nav-cont">
+        <div className="logo-sub">
         <img className="logo" src={Logo} alt="logo"></img>
+        <p>Soluciones tec</p>
+        </div>
         <p className="slogan">El futuro de tu empresa esta acá</p>
         <Navbar />
       </div>

@@ -1,4 +1,3 @@
-
 .head {
   background-image: url(../../Assets/Img/buildings-1840440_1920.jpg);
   height: 640px;
@@ -8,12 +7,27 @@
 }
 .logo {
   height: 60px;
+  margin-top: 10px;
 }
+.logo-sub{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-sub > p{
+  color: #fff;
+  font-family: "Bai Jamjuree";
+  font-style: italic;
+}
+
+
 .nav-cont {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  
 }
 .slogan {
   font-family: "Bai Jamjuree";
@@ -39,22 +53,36 @@
   margin-top: 30px;
   color: #ffffff;
   text-align: center;
-  
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: italic;
 }
 .btn-app {
   background: #029598;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
-  margin-top: 30px;
+  margin-top: 50px;
   border: none;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #fff;
 }
-.social{
+
+.btn-app:hover{
+  background-color: #fff;
+  color: #029598;
+}
+
+.social {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 50px;
+  margin-right: 25px;
+  cursor: pointer;
 }
-.social-icon{
- height: 30px;
- margin-left: 15px;
+.social-icon {
+  height: 30px;
+  margin-left: 15px;
+}
+.social-icon:hover{
+  transform: scale(1.1);
 }
