@@ -1,6 +1,7 @@
 .about{
     background-color: #029598;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -10,14 +11,14 @@
 .geo-team{
     position: absolute;
     height: 150px;
-    left: 0px;
+    left: -40px;
     top: 1280px;
     z-index: 1;
 }
 .about > h2 {
     z-index: 2;
     color: #fff;
-
+    
 }
 
 .about > p {
