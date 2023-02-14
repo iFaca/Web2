@@ -4,8 +4,8 @@ import Geotop from '../../Assets/Img/geometria2.png'
 import Geobot from '../../Assets/Img/geometria.png'
 const Contact = () => {
   return (
-    <div className="contact">
-     <img src={Geotop} className="geo-contact"/>
+    <><div className="contact">
+      <img src={Geotop} className="geo-contact" />
       <h2>Contacto</h2>
       <h3>
         Contactenos por whatsapp, zoom o una llamada telefónica.
@@ -26,7 +26,7 @@ const Contact = () => {
           name=""
           rows="8"
           cols="30"
-          placeholder="deja tu consulta..."
+          placeholder="Detalle del proyecto(opcional)"
         ></textarea>
         <button className="btn-app">Quiero innovar</button>
       </div>
@@ -34,10 +34,9 @@ const Contact = () => {
       <h3>Viamonte 5263,Chacras de Coria Luján de Cuyo,Mendoza.</h3>
       <h3>Hola@innovis.com.ar</h3>
       <h3>+54 9 261 516 3469</h3>
-      <h3>+54 9 261 622 5439</h3>     
-      <h3>+54 9 261 513 2968</h3>     
-    <img src={Geobot} className="geo-contact-bot"/>
-    </div>
+      <h3>+54 9 261 622 5439</h3>
+      <h3>+54 9 261 513 2968</h3>
+    </div><img src={Geobot} className="geo-contact-bot" /></>
   );
 };
 
