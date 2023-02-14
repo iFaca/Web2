@@ -1,0 +1,47 @@
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 640px;
+}
+.geo-contact{
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    height: 120px;
+}
+.geo-contact-bot{
+    position: absolute;
+    left: 200px;
+    top: 2550px;
+    z-index: 1;
+    height: 150px;
+}
+
+.contact > h2 {
+    color: #029598;
+    z-index: 2;
+}
+.contact > h3 {
+    z-index: 2;
+}
+.line{
+    border: 1px solid #000000;
+    width: 280px;
+}
+.form-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.form-cont > input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    border: none;
+}
+.form-cont > textarea{
+    margin-top: 10px;
+    border: none;
+}
