@@ -1,33 +1,37 @@
-.services{
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     justify-content: space-evenly;
-     background-color: #383F41;
-     text-align: center;
-     height: 640px;
+.services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #383f41;
+  text-align: center;
+  height: 640px;
 }
-.services > h2{
-    color: #029598;
-    z-index: 2;
+.services > h2 {
+  color: #029598;
+  z-index: 2;
+}
+.services > p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: italic;
 }
 
-.services-info{
-    color: #ffffff;
-    z-index: 2;
+.services-info {
+  color: #ffffff;
+  z-index: 2;
 }
-.geo{
-    position: absolute;    
-    left: 0px;
-    top: 1190px;
-    height: 90px;
-    z-index: 1;
+.geo {
+  position: absolute;
+  left: 0px;
+  top: 1190px;
+  height: 90px;
+  z-index: 1;
 }
-.geo2{
-    position: absolute;
-    right: 0px;
-    top: 640px;
-    height: 90px;
-    rotate: 180deg;
-    z-index: 1;
+.geo2 {
+  position: absolute;
+  right: 0px;
+  top: 640px;
+  height: 90px;
+  rotate: 180deg;
+  z-index: 1;
 }

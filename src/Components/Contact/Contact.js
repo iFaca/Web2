@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <><div className="contact">
       <img src={Geotop} className="geo-contact" />
-      <h2>Contacto</h2>
+      <h2>CONTACTO</h2>
       <h3>
         Contactenos por whatsapp, zoom o una llamada telefónica.
         <spam className="highlight">
@@ -28,7 +28,7 @@ const Contact = () => {
           cols="30"
           placeholder="Detalle del proyecto(opcional)"
         ></textarea>
-        <button className="btn-app">Quiero innovar</button>
+        <button className="btn-app">QUIERO INNOVAR</button>
       </div>
       <h2>DATOS DE CONTACTO</h2>
       <h3>Viamonte 5263,Chacras de Coria Luján de Cuyo,Mendoza.</h3>
