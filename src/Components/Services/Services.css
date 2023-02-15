@@ -35,3 +35,10 @@
   rotate: 180deg;
   z-index: 1;
 }
+
+
+@media screen and (min-width: 375px){
+  .geo2{
+    right: -0px;
+  }
+}
