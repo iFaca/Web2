@@ -27,7 +27,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+  padding: 10px;
 }
 .slogan {
   font-family: "Bai Jamjuree";
@@ -86,4 +86,35 @@
 }
 .social-icon:hover{
   transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px){
+  .slogan{
+    display: inline-flex;
+  }
+  .nav-cont{
+    align-items: baseline;
+  }
+  .social{
+    flex-direction: column;
+    position: fixed;
+    right: 0px;
+    top: 430px;
+    z-index: 30;
+    
+  }
+  .social-icon{
+    margin: 4px;
+  }
+  .main-content{
+    width: 395px;
+    margin-left: 250px;
+    align-items: flex-start;
+  }
+  .main-content > h1 {
+    text-align: left;
+  }
+  .main-content > p {
+    text-align: left;
+  } 
 }
