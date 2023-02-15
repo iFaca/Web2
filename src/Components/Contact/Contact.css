@@ -13,10 +13,11 @@
 }
 .geo-contact-bot{
     position: absolute;
-    right: 0px;
-    top: 2610px;
+    right: -15px;
+    top: 2648px;
     z-index: 1;
     height: 80px;
+    rotate: 270deg;
 }
 
 .contact > h2 {

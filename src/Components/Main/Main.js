@@ -10,11 +10,11 @@ import In from '../../Assets/Img/in.png'
 
 const Main = () => {
   return (
-    <div className="head">
+    <><div className="head">
       <div className="nav-cont">
         <div className="logo-sub">
-        <img className="logo" src={Logo} alt="logo"></img>
-        <p>Soluciones tec</p>
+          <img className="logo" src={Logo} alt="logo"></img>
+          <p>Soluciones tec</p>
         </div>
         <p className="slogan">El futuro de tu empresa esta acá</p>
         <Navbar />
@@ -34,14 +34,14 @@ const Main = () => {
         </p>
         <button className="btn-app">QUIERO QUE ME ASESOREN</button>
       </div>
-      <div className="social">
-        <a><img src={Wsp} className='social-icon'/></a>
-        <a><img src={Twitter} className='social-icon'/></a>
-        <a> <img src={In} className='social-icon'/></a>
-        
-        
-      </div>
-    </div>
+
+    </div><div className="social">
+        <a><img src={Wsp} className='social-icon' /></a>
+        <a><img src={Twitter} className='social-icon' /></a>
+        <a> <img src={In} className='social-icon' /></a>
+
+
+      </div></>
   );
 };
 
