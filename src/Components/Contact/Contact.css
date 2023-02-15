@@ -13,10 +13,10 @@
 }
 .geo-contact-bot{
     position: absolute;
-    left: 200px;
+    right: 0px;
     top: 2610px;
     z-index: 1;
-    height: 150px;
+    height: 80px;
 }
 
 .contact > h2 {
@@ -58,4 +58,14 @@
 }
 .contact-date > h2{
     color: #029598;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 375px){
+    .geo-contact-bot{
+        height: 100px;
+        rotate: 270deg;
+        right: -19px;
+    }
 }
