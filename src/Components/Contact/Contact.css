@@ -1,17 +1,17 @@
-.contact{
+.contact {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
     height: 640px;
 }
-.geo-contact{
+.geo-contact {
     position: absolute;
     left: -40px;
     z-index: 1;
     height: 120px;
 }
-.geo-contact-bot{
+.geo-contact-bot {
     position: absolute;
     right: -15px;
     top: 2648px;
@@ -26,18 +26,18 @@
 }
 .contact > h3 {
     z-index: 2;
-    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: "Bai Jamjuree", sans-serif;
     font-style: italic;
 }
-.line{
+.line {
     border: 1px solid #000000;
     width: 280px;
 }
-.form-cont{
+.form-cont {
     display: flex;
     flex-direction: column;
     text-align: start;
-    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: "Bai Jamjuree", sans-serif;
     font-style: italic;
 }
 .form-cont > input {
@@ -46,27 +46,40 @@
     text-decoration: none;
     border: none;
 }
-.form-cont > textarea{
+.form-cont > textarea {
     margin-top: 10px;
     border: none;
 }
-.contact-date{
+.contact-date {
     margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 2;
 }
-.contact-date > h2{
+.contact-date > h2 {
     color: #029598;
 }
 
 /* RESPONSIVE */
 
-@media screen and (min-width: 375px){
-    .geo-contact-bot{
+@media screen and (min-width: 375px) {
+    .geo-contact-bot {
         height: 100px;
         rotate: 270deg;
         right: -19px;
+    }
+    .contact-container {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+    .contact {
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        text-align: left;
+        height: 640px;
+        justify-content: space-between;
     }
 }

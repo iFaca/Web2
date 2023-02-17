@@ -7,7 +7,7 @@
   text-align: center;
   height: 640px;
 }
-.services > h2 {
+.services-content > h2 {
   color: #029598;
   z-index: 2;
 }
@@ -41,4 +41,10 @@
   .geo2{
     right: -0px;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .services-content{
+    width: 354px;
+}
 }

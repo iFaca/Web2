@@ -34,3 +34,14 @@
     margin-top: 20px;
    
 }
+
+
+
+@media screen and (min-width: 768px) {
+    .img-team{
+        height: 354px;
+    }
+    .about > p {
+        width: 542px;
+    }
+}
