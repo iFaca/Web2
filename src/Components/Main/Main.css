@@ -65,6 +65,7 @@
   border: none;
   font-family: "Bai Jamjuree", sans-serif;
   color: #fff;
+  padding: 5px;
 }
 
 .btn-app:hover{
@@ -117,4 +118,18 @@
   .main-content > p {
     text-align: left;
   } 
+}
+
+@media screen and (min-width: 1024px){
+  .main-content{
+    width: 444px;
+    margin-left: 264px;
+    font-size: 80%;
+    
+  }
+  .main-content > h1{
+    font-size: 4ch;
+
+  }
+ 
 }
