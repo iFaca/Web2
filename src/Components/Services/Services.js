@@ -5,7 +5,7 @@ import Geo from "../../Assets/Img/geometria.png";
 const Services = () => {
   return (
     <>
-      <div className="services">
+      <div className="services" href="#page2">
         <div className="services-container">
           <div className="services-obj">
             <h2>SOFTWARE</h2>

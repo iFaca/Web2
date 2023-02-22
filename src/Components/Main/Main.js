@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react';
 import "./Main.css";
 import Logo from "../../Assets/Img/innovis_adobe_express.png";
 import Navbar from "../Nav-bar/Navbar";
 import Wsp from "../../Assets/Img/wsp.png";
 import Twitter from "../../Assets/Img/twit.png";
 import In from "../../Assets/Img/in.png";
-
+import Btn from '../Btn-arrow/BtnArrow'
 const Main = () => {
+
   return (
     <>
-      <div className="head">
+      <div className="head" href="#">
         <div className="nav-cont">
           <div className="logo-sub">
             <img className="logo" src={Logo} alt="logo"></img>
