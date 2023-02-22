@@ -50,28 +50,43 @@
 }
 
 @media screen and (min-width: 768px) {
-  .services-content{
-    width: 354px;
-}
+  .services-container{
+    display: flex;
+  }
   .services{
     display: flex;
     align-items: center;
   }
 }
+
+@media screen and (min-width: 1080px){
+  .services{
+    height: 540px;
+  }
+}
+
+
 @media screen and (min-width: 1024px){
   .services{
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .services-content{
-    display: flex;
     flex-direction: row;
-  }    
+  }
+  .services-container{
+    display: flex;
+  }
+ 
   .services-obj{
     display: flex;
-    
-    justify-content: flex-start;
     flex-direction: column;
+ }
+}
+@media screen and (min-width: 1080px){
+  .geo2{
+    top: 540px;
+    height: 200px;
+  }
+  .geo{
+    top: 880px;
+    height: 200px;
   }
 }

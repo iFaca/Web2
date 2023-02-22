@@ -29,7 +29,7 @@ const Contact = () => {
               id=""
               name=""
               rows="8"
-              cols="30"
+              cols="10"
               placeholder="Detalle del proyecto(opcional)"
             ></textarea>
             <button className="btn-app">QUIERO INNOVAR</button>
@@ -38,7 +38,7 @@ const Contact = () => {
         <img src={Geobot} className="geo-contact-bot" />
         <div className="contact-date">
           <h2>DATOS DE CONTACTO</h2>
-          <h3>Viamonte 5263,Chacras de Coria Luján de Cuyo,Mendoza.</h3>
+          <h3>Viamonte 5263,Chacras de Coria <br></br>Luján de Cuyo,Mendoza.</h3>
           <h3>Hola@innovis.com.ar</h3>
           <h3>+54 9 261 516 3469</h3>
           <h3>+54 9 261 622 5439</h3>

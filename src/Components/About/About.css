@@ -54,3 +54,19 @@
         width: 542px;
     }
 }
+
+@media screen and (min-width: 1080px){
+    .about{
+      height: 544px;
+    }
+    .img-team{
+        height: 240px;
+    }
+    .geo-team{
+        top: 1080px;
+        height: 220px;
+    }
+    .btn-join{
+        margin-top: 10px;
+    }
+  }
