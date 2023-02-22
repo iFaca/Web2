@@ -14,8 +14,8 @@
 .geo-contact-bot {
     position: absolute;
     right: -15px;
-    top: 2648px;
-    z-index: 1;
+    top: 2722px;
+    z-index: 0;
     height: 80px;
     rotate: 270deg;
 }
@@ -28,6 +28,14 @@
     z-index: 2;
     font-family: "Bai Jamjuree", sans-serif;
     font-style: italic;
+    
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+    color: #029598;
+    padding: 5px;
+    z-index: 4;
 }
 .line {
     border: 1px solid #000000;
@@ -56,6 +64,8 @@
     flex-direction: column;
     align-items: center;
     z-index: 2;
+    padding: 3px;
+    text-align: center;
 }
 .contact-date > h2 {
     color: #029598;
@@ -63,7 +73,7 @@
 
 /* RESPONSIVE */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
     .geo-contact-bot {
         height: 100px;
         rotate: 270deg;
@@ -73,13 +83,89 @@
         display: flex;
         flex-direction: row-reverse;
         text-align: left;
+        height: 890px;
     }
     .contact {
         display: flex;
         align-items: stretch;
         flex-direction: column;
         text-align: left;
-        height: 640px;
+        padding: 60px;
+        height: 565px;
         justify-content: space-between;
+        width: 1036px;
+    }
+    
+    .contact-date{
+        justify-content: flex-end;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .btn-app{
+        width: 223px;
+        height: 41px;
+    }
+    .geo-contact{
+        top: 1920px;
+        height: 190px;
+    }
+    .line{
+        width: 380px;
+    }
+    .contact-title{
+        justify-content: left;
+        z-index: 4;
+        padding: 10px;
+    }
+    .contact-title >h2 {
+        z-index: 2;
+    }
+}
+@media screen and (min-width: 1080px){
+    
+    
+    .contact-container{
+        width: 100%;
+        display: flex;
+        height: 460px;
+    }
+    .contact-date{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contact-date >h3{
+        text-align: left;
+        font-size: 13px;
+        
+    }
+    .contact-date >h2{
+        font-size: 20px;
+    }
+    .form-cont{
+        font-size: 10px;
+        
+    }
+   
+    .contact{
+        padding: 0px;
+        padding-left: 190px;
+        display: flex;
+        justify-content: flex-start;
+        height: 465px;
+    }
+    .contact > h3 {
+        font-size: 25px;
+    }
+    .contact-title > h2{
+        font-size: 25px;
+    }
+    .geo-contact-bot{
+        top: 1908px;
+        height: 200px;
+        right: -51px;
+    }
+    .geo-contact{
+        top: 1624px;
+        height: 200px;
     }
 }
