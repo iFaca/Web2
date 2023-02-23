@@ -169,3 +169,14 @@
         height: 200px;
     }
 }
+@media screen and (min-width: 1360px){
+    .contact{
+        height: 585px;
+    }
+    .geo-contact{
+        top: 1887px;
+    }
+    .geo-contact-bot{
+        top: 2290px;
+    }
+}

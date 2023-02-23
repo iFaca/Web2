@@ -134,16 +134,20 @@
   }
  
 }
+
 @media screen and (min-width: 1080px){
   .head{
     height: 540px;
   }
-}
-@media screen and (min-width: 1080px){
   .social{
     top: 450px;
   }
   .social-icon{
     height: 20px;
+  }
+}
+@media screen and (min-width: 1360px){
+  .head{
+    height: 625px;
   }
 }
