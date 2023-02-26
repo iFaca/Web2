@@ -101,3 +101,23 @@
     top: 625px;
   }
 }
+@media  screen and (min-width: 2560px){
+  .services{
+    height: 765px;
+  }
+  
+  .geo{
+    top: 1245px;
+    height: 300px;
+  }
+  .geo2{
+    top: 780px;
+    height: 300px;
+  }
+  .services-obj{
+    width: 600px;
+  }
+  .services-info {
+    font-size: 3ch;
+  }
+}

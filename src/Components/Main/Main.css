@@ -151,3 +151,32 @@
     height: 625px;
   }
 }
+@media  screen and (min-width: 2560px) {
+  .head{
+    height: 780px;
+  }
+  .logo{
+    height: 120px;
+  }
+  .nav-cont{
+    padding: 30px;
+  }
+  .main-content{
+    width: 600px;
+    font-size: 100%;
+    margin-left: 300px;
+  }
+  .main-content > h1{
+    font-size: 6ch;
+
+  }
+  .main-content > p {
+    font-size: 2.5ch;
+  }
+  .slogan  {
+    font-size: 2.5ch;
+  }
+  .social-icon{
+    height: 35px;
+  }
+}

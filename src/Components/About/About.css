@@ -78,3 +78,19 @@
         top: 1257px;
     }
   }
+  @media  screen and (min-width: 2560px) {
+    .about{
+        height: 750px;
+        font-size: 25px;
+        
+    }
+    .about > p {
+        width: 1000px;
+    }
+    .about > h2 {
+        font-size: 3ch;
+    }
+    .img-team{
+        height: 400px;
+    }
+  }
