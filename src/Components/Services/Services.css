@@ -90,3 +90,14 @@
     height: 200px;
   }
 }
+@media screen and (min-width: 1360px){
+  .services{
+    height: 632px;
+  }
+  .geo{
+    top: 1057px;
+  }
+  .geo2{
+    top: 625px;
+  }
+}

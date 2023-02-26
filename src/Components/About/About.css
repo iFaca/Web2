@@ -70,3 +70,11 @@
         margin-top: 10px;
     }
   }
+  @media screen and (min-width: 1360px){
+    .about{
+        height: 630px;
+    }
+    .geo-team{
+        top: 1257px;
+    }
+  }
