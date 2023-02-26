@@ -6,6 +6,7 @@
     cursor: pointer;
     height: 30px;
     animation: arrow 2s infinite;
+    rotate: 180deg;
   }
   
   

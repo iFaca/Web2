@@ -180,3 +180,37 @@
         top: 2290px;
     }
 }
+@media screen and (min-width: 2560px) {
+    .contact{
+        height: 670px;
+    }
+    .contact-container{
+        justify-content: start;
+    }
+    .contact > h3 {
+        font-size: 45px;
+    }
+    .contact-title > h2{
+        font-size: 40px;
+    }
+    .form-cont{
+        font-size: 20px;
+    }
+    .contact-date{
+        height: 650px;
+    }
+    .contact-date >h2{
+        font-size: 30px;
+    }
+    .contact-date >h3{
+        font-size: 30px;
+    }
+    .geo-contact{
+        top: 2295px;
+        height: 300px;
+    }
+    .geo-contact-bot{
+        top: 2700px;
+        height: 300px;
+    }
+}
