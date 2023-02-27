@@ -7,15 +7,16 @@
 }
 .geo-contact {
     position: absolute;
-    left: -40px;
+    left: -20px;
     z-index: 1;
     height: 120px;
+    top: 1920px;
 }
 .geo-contact-bot {
     position: absolute;
     right: -15px;
-    top: 2722px;
-    z-index: 0;
+    top: 2790px;
+    z-index: 1;
     height: 80px;
     rotate: 270deg;
 }
@@ -25,7 +26,7 @@
     z-index: 2;
 }
 .contact > h3 {
-    z-index: 2;
+    z-index: 5;
     font-family: "Bai Jamjuree", sans-serif;
     font-style: italic;
     
@@ -143,7 +144,7 @@
     }
     .form-cont{
         font-size: 10px;
-        
+        width: 55%;
     }
    
     .contact{
@@ -152,6 +153,7 @@
         display: flex;
         justify-content: flex-start;
         height: 465px;
+        
     }
     .contact > h3 {
         font-size: 25px;
@@ -180,37 +182,51 @@
         top: 2290px;
     }
 }
+@media screen and (min-width: 1440px){
+    .geo-contact{
+        top: 2112px;
+    }
+    .geo-contact-bot{
+        top: 2520px;
+    }
+  }
 @media screen and (min-width: 2560px) {
     .contact{
-        height: 670px;
+        height: 1390px;
+        display: flex;
+        justify-content: center;
     }
     .contact-container{
         justify-content: start;
     }
     .contact > h3 {
-        font-size: 45px;
+        font-size: 5ch;
     }
     .contact-title > h2{
-        font-size: 40px;
+        font-size: 6ch;
     }
     .form-cont{
-        font-size: 20px;
+        font-size: 3ch;
     }
     .contact-date{
-        height: 650px;
+        height: 1250px;
+        margin-left: 40px;
     }
     .contact-date >h2{
-        font-size: 30px;
+        font-size: 6ch;
     }
     .contact-date >h3{
-        font-size: 30px;
+        font-size: 3ch;
+        
+       
     }
     .geo-contact{
-        top: 2295px;
-        height: 300px;
+        top: 4170px;
+        height: 400px;
     }
     .geo-contact-bot{
-        top: 2700px;
-        height: 300px;
+        top: 5055px;
+        height: 500px;
+        right: -95px;
     }
 }
