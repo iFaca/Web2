@@ -9,18 +9,17 @@
   height: 60px;
   margin-top: 10px;
 }
-.logo-sub{
+.logo-sub {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.logo-sub > p{
+.logo-sub > p {
   color: #fff;
   font-family: "Bai Jamjuree";
   font-style: italic;
 }
-
 
 .nav-cont {
   display: flex;
@@ -68,7 +67,7 @@
   padding: 5px;
 }
 
-.btn-app:hover{
+.btn-app:hover {
   background-color: #fff;
   color: #029598;
 }
@@ -85,31 +84,30 @@
   height: 30px;
   margin-left: 15px;
 }
-.social-icon:hover{
+.social-icon:hover {
   transform: scale(1.1);
   color: #029598;
 }
 /* RESPONSIVE */
 
-@media screen and (min-width: 768px){
-  .slogan{
+@media screen and (min-width: 768px) {
+  .slogan {
     display: inline-flex;
   }
-  .nav-cont{
+  .nav-cont {
     align-items: baseline;
   }
-  .social{
+  .social {
     flex-direction: column;
     position: fixed;
     right: 0px;
     top: 430px;
     z-index: 30;
-    
   }
-  .social-icon{
+  .social-icon {
     margin: 4px;
   }
-  .main-content{
+  .main-content {
     width: 395px;
     margin-left: 250px;
     align-items: flex-start;
@@ -119,64 +117,87 @@
   }
   .main-content > p {
     text-align: left;
-  } 
+  }
 }
 
-@media screen and (min-width: 1024px){
-  .main-content{
+@media screen and (min-width: 1024px) {
+  .main-content {
     width: 444px;
     margin-left: 264px;
     font-size: 80%;
-    
   }
-  .main-content > h1{
+  .main-content > h1 {
     font-size: 4ch;
-
   }
- 
 }
 
-@media screen and (min-width: 1080px){
-  .head{
+@media screen and (min-width: 1080px) {
+  .head {
     height: 540px;
   }
-  .social{
+  .social {
     top: 450px;
   }
-  .social-icon{
+  .social-icon {
     height: 20px;
   }
 }
-@media screen and (min-width: 1360px){
-  .head{
+@media screen and (min-width: 1360px) {
+  .head {
     height: 625px;
   }
 }
-@media  screen and (min-width: 2560px) {
-  .head{
+
+@media screen and (min-width: 1440px) {
+  .head {
+    height: 850px;
+  }
+  .logo {
+    height: 100px;
+  }
+  
+  .main-content {
+    width: 420px;
+    margin-left: 350px;
+  }
+  .main-content > h1 {
+    font-size: 6ch;
+  }
+  .main-content > p {
+    font-size: 2.5ch;
+  }
+  .slogan {
+    font-size: 3ch;
+  }
+  .social-icon {
+    height: 35px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .head {
     height: 1390px;
   }
-  .logo{
+  .logo {
     height: 200px;
   }
-  .nav-cont{
+  .nav-cont {
     padding: 40px;
   }
-  .main-content{
+  .main-content {
     width: 800px;
     margin-left: 600px;
   }
-  .main-content > h1{
+  .main-content > h1 {
     font-size: 10ch;
-
   }
   .main-content > p {
     font-size: 4ch;
   }
-  .slogan  {
+  .slogan {
     font-size: 3ch;
   }
-  .social-icon{
+  .social-icon {
     height: 50px;
   }
 }

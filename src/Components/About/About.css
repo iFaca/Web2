@@ -79,6 +79,21 @@
         top: 1257px;
     }
   }
+  @media screen and (min-width: 1440px){
+    .geo-team{
+        top: 1480px;
+    }
+    .about > h2 {
+        font-size: 4ch;
+    }
+    .about > p {
+        width: 1000px;
+        font-size: 2ch;
+    }
+    .img-team{
+        height: 350px;
+    }
+  }
   @media  screen and (min-width: 2560px) {
     .about{
         height: 1390px;

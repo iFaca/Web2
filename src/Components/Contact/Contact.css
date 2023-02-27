@@ -144,7 +144,7 @@
     }
     .form-cont{
         font-size: 10px;
-        
+        width: 55%;
     }
    
     .contact{
@@ -153,6 +153,7 @@
         display: flex;
         justify-content: flex-start;
         height: 465px;
+        
     }
     .contact > h3 {
         font-size: 25px;
@@ -181,6 +182,14 @@
         top: 2290px;
     }
 }
+@media screen and (min-width: 1440px){
+    .geo-contact{
+        top: 2112px;
+    }
+    .geo-contact-bot{
+        top: 2520px;
+    }
+  }
 @media screen and (min-width: 2560px) {
     .contact{
         height: 1390px;

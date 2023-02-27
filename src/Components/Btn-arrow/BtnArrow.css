@@ -46,11 +46,16 @@
 
     }
   }
-
+  @media  screen and (min-width: 1080px) {
+    .arrow{
+      height: 28px;
+      top: 470px;
+    }
+  }
   @media  screen and (min-width: 1440px) {
     .arrow{
-      top: 470px;
-      height: 30px;
+      top: 512px;
+      height: 45px;
     }
   }
 
