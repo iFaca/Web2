@@ -44,6 +44,7 @@
    
 }
 
+/* RESPONSIVE */
 
 
 @media screen and (min-width: 768px) {
@@ -60,7 +61,7 @@
       height: 544px;
     }
     .img-team{
-        height: 240px;
+        height: 200px;
     }
     .geo-team{
         top: 1080px;
@@ -80,17 +81,21 @@
   }
   @media  screen and (min-width: 2560px) {
     .about{
-        height: 750px;
-        font-size: 25px;
+        height: 1390px;
         
     }
     .about > p {
         width: 1000px;
-    }
-    .about > h2 {
         font-size: 3ch;
     }
+    .about > h2 {
+        font-size: 6ch;
+    }
     .img-team{
+        height: 800px;
+    }
+    .geo-team{
+        top: 2780px;
         height: 400px;
     }
   }

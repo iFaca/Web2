@@ -42,6 +42,7 @@
   z-index: 1;
 }
 
+/* RESPONSIVE */
 
 @media screen and (min-width: 375px){
   .geo2{
@@ -103,21 +104,23 @@
 }
 @media  screen and (min-width: 2560px){
   .services{
-    height: 765px;
+    height: 1390px;
   }
   
   .geo{
-    top: 1245px;
-    height: 300px;
+    top: 2280px;
+    height: 500px;
+    
   }
   .geo2{
-    top: 780px;
-    height: 300px;
+    top: 1390px;
+    height: 500px;
+    right: 10px;
   }
   .services-obj{
     width: 600px;
   }
   .services-info {
-    font-size: 3ch;
+    font-size: 4ch;
   }
 }

@@ -32,11 +32,32 @@
     }
   
   }
-  
+  /* RESPONSIVE */
+  @media  screen and (min-width: 320px) {
+    .arrow{
+      display: none;
+    }
+  }
+
+  @media  screen and (min-width: 768px) {
+    .arrow{
+      display: block;
+      height: 40px;
+
+    }
+  }
+
+  @media  screen and (min-width: 1440px) {
+    .arrow{
+      top: 470px;
+      height: 30px;
+    }
+  }
+
   @media screen and (min-width: 2560px) {
     .arrow{
       right: 26px;
-      top: 520px;
-      height: 40px;
+      top: 560px;
+      height: 55px;
     }
   }

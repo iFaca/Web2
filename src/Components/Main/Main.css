@@ -89,6 +89,7 @@
   transform: scale(1.1);
   color: #029598;
 }
+/* RESPONSIVE */
 
 @media screen and (min-width: 768px){
   .slogan{
@@ -153,30 +154,29 @@
 }
 @media  screen and (min-width: 2560px) {
   .head{
-    height: 780px;
+    height: 1390px;
   }
   .logo{
-    height: 120px;
+    height: 200px;
   }
   .nav-cont{
-    padding: 30px;
+    padding: 40px;
   }
   .main-content{
-    width: 600px;
-    font-size: 100%;
-    margin-left: 300px;
+    width: 800px;
+    margin-left: 600px;
   }
   .main-content > h1{
-    font-size: 6ch;
+    font-size: 10ch;
 
   }
   .main-content > p {
-    font-size: 2.5ch;
+    font-size: 4ch;
   }
   .slogan  {
-    font-size: 2.5ch;
+    font-size: 3ch;
   }
   .social-icon{
-    height: 35px;
+    height: 50px;
   }
 }
