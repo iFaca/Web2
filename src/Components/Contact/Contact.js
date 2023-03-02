@@ -12,53 +12,54 @@ const Contact = () => {
   const [subjectError, setSubjectError] = useState("");
   
   const sendEmail = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    let valid = true;
-    
-    // Validación del campo nombre
-    if (!form.current.user_name.value.trim()) {
-      setNameError("Por favor ingrese su nombre");
-      valid = false;
-    } else if (!/^[a-zA-Z\s]+$/.test(form.current.user_name.value.trim())) {
-      setNameError("Por favor ingrese un nombre válido sin números");
-      valid = false;
-    } else {
-      setNameError("");
-    }
+  let valid = true;
 
-    // Validación del campo email
-    if (!form.current.user_email.value.trim()) {
-      setEmailError("Por favor ingrese su email");
-      valid = false;
-    } else if (!/\S+@\S+\.\S+/.test(form.current.user_email.value.trim())) {
-      setEmailError("Por favor ingrese un email válido");
-      valid = false;
-    } else {
-      setEmailError("");
-    }
+  // Validación del campo nombre
+  if (!form.current || !form.current.user_name || !form.current.user_name.value.trim()) {
+    setNameError("Por favor ingrese su nombre");
+    valid = false;
+  } else if (!/^[a-zA-Z\s]+$/.test(form.current.user_name.value.trim())) {
+    setNameError("Por favor ingrese un nombre válido sin números");
+    valid = false;
+  } else {
+    setNameError("");
+  }
 
-    // Validación del campo asunto
-    if (!form.current.subject.value.trim()) {
-      setSubjectError("Por favor ingrese el asunto");
-      valid = false;
-    } else if (!/^[a-zA-Z\s]+$/.test(form.current.subject.value.trim())) {
-      setSubjectError("Por favor ingrese un asunto válido sin números");
-      valid = false;
-    } else {
-      setSubjectError("");
-    }
+  // Validación del campo email
+  if (!form.current || !form.current.user_email || !form.current.user_email.value.trim()) {
+    setEmailError("Por favor ingrese su email");
+    valid = false;
+  } else if (!/\S+@\S+\.\S+/.test(form.current.user_email.value.trim())) {
+    setEmailError("Por favor ingrese un email válido");
+    valid = false;
+  } else {
+    setEmailError("");
+  }
 
-    // Si todos los campos son válidos, se envía el formulario
-    if (valid) {
-      emailjs.sendForm('service_3on12bj', 'template_qlpb9is', form.current, 'Ek8vPmaGvSCU7nbM4')
-      .then((result) => {
-        alert('email enviado con exito')
-      }, (error) => {
-        console.log(error.text);
-      });
-    }
-  };
+ 
+
+  // Si todos los campos son válidos, se envía el formulario
+
+  if (valid) {
+    emailjs
+      .sendForm(
+        "service_3on12bj",
+        "template_qlpb9is",
+        form.current,
+        "Ek8vPmaGvSCU7nbM4"
+      )
+      .then(
+        (result) => {
+          alert("email enviado con exito");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
+};
   return (
     <>
       <div className="contact-title">
@@ -91,7 +92,7 @@ const Contact = () => {
                 cols="10"
                 placeholder="Detalle del proyecto(opcional)"
               ></textarea>
-              <button className="btn-app">QUIERO INNOVAR</button>
+              <button className="btn-app" type="submit" value="Send">QUIERO INNOVAR</button>
             </div>
           </form>
         </div>{" "}
