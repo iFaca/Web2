@@ -19,7 +19,7 @@ const About = () => {
         ayudarte a alcanzar tus objetivos!
       </p>
       <img src={Team} className="img-team"/>
-      <button className="btn-join">SUMATE A NUESTRO EQUIPO</button>
+      <a href="https://api.whatsapp.com/send?phone=542615732968"><button className="btn-join">SUMATE A NUESTRO EQUIPO</button></a>
     </div>
   );
 };
