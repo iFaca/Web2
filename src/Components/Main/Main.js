@@ -5,7 +5,7 @@ import Logo from '../../Assets/Img/innovis_adobe_express.png';
 import Wsp from '../../Assets/Img/wsp.png';
 import Twitter from '../../Assets/Img/twit.png';
 import In from '../../Assets/Img/in.png';
-import BackgroundDay from '../../Assets/Img/background-day2.jpg';
+import BackgroundDay from '../../Assets/Img/background-day3.jpg';
 import BackgroundNight from '../../Assets/Img/background-night.jpg';
 
 const Main = () => {
@@ -14,8 +14,8 @@ const Main = () => {
   useEffect(() => {
     const now = new Date();
     const hour = now.getHours();
-    // If it's nighttime (between 7pm and 6am), set isNight to true
-    setIsNight(hour >= 19 || hour < 6);
+    // aca seteamos el horario para el cambio de la imagen
+    setIsNight(hour >= 20 || hour < 7);
   }, []);
 
   const backgroundImage = isNight ? BackgroundNight : BackgroundDay;
