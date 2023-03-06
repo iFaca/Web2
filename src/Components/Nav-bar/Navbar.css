@@ -72,3 +72,7 @@
 .menu__item:hover {
   background-color: #029598;
 }
+section {
+  min-height: 100vh;
+  padding-top: 80px;
+}
