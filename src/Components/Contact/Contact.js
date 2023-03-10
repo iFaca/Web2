@@ -45,10 +45,10 @@ const Contact = () => {
   if (valid) {
     emailjs
       .sendForm(
-        "service_3on12bj",
-        "template_qlpb9is",
+        "service_fayf6ya",
+        "template_ojy3bdz",
         form.current,
-        "Ek8vPmaGvSCU7nbM4"
+        "WhXCjS_qPgmQhqoiD"
       )
       .then(
         (result) => {
