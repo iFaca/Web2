@@ -94,6 +94,30 @@
         height: 350px;
     }
   }
+  @media  screen and (min-width:1920px) {
+    .about{
+        height: 1080px;
+        justify-content: flex-start;
+    }
+    .about > p {
+        width: 1000px;
+        font-size: 2.5ch;
+    }
+    .about > h2 {
+        font-size: 5ch;
+    }
+    .img-team{
+        height: 700px;
+    }
+    .btn-join{
+    height: 55px;
+    font-size: 3ch;
+    }
+    .geo-team{
+        top: 2160px;
+        height: 302px;
+    }
+  }
   @media  screen and (min-width: 2560px) {
     .about{
         height: 1390px;

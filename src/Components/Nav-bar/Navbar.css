@@ -76,3 +76,19 @@ section {
   min-height: 100vh;
   padding-top: 80px;
 }
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 1920px){
+  .menu__box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+  .menu__item {
+    font-size: 5ch;
+    
+  }
+}

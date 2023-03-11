@@ -62,6 +62,7 @@ const Contact = () => {
 };
   return (
     <>
+     
       <div className="contact-title">
         <h2>CONTACTO</h2>
       </div>
@@ -92,7 +93,7 @@ const Contact = () => {
                 cols="10"
                 placeholder="Detalle del proyecto(opcional)"
               ></textarea>
-              <button className="btn-app" type="submit" value="Send">QUIERO INNOVAR</button>
+              <button className="btn-contact" type="submit" value="Send">QUIERO INNOVAR</button>
             </div>
           </form>
         </div>{" "}
