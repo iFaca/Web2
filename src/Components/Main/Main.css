@@ -173,6 +173,35 @@
   }
 }
 
+@media  screen and (min-width:1920px) {
+  
+  .head{
+    height: 1080px;      
+    }
+  
+  .logo{
+    height: 170px;
+  }
+  .main-content{
+    width: 650px;
+  }
+  .main-content > h1 {
+    font-size: 8ch;
+  }
+  .main-content > p {
+    font-size: 3ch;
+  }
+  .social-icon {
+    height: 40px;
+  }
+  .btn-app{
+    width: 320px !important;
+    height: 55px !important;
+    font-size: 3ch;
+  }
+  
+}
+
 @media screen and (min-width: 2560px) {
   .head {
     height: 1390px;

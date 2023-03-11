@@ -1,235 +1,282 @@
 .contact {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    height: 640px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 640px;
 }
 .geo-contact {
-    position: absolute;
-    left: -20px;
-    z-index: 1;
-    height: 120px;
-    top: 1920px;
+  position: absolute;
+  left: -20px;
+  z-index: 1;
+  height: 120px;
+  top: 1920px;
 }
 .geo-contact-bot {
-    position: absolute;
-    right: -15px;
-    top: 2790px;
-    z-index: 1;
-    height: 80px;
-    rotate: 270deg;
+  position: absolute;
+  right: -15px;
+  top: 2790px;
+  z-index: 1;
+  height: 80px;
+  rotate: 270deg;
 }
 
 .contact > h2 {
-    color: #029598;
-    z-index: 2;
+  color: #029598;
+  z-index: 2;
 }
 .contact > h3 {
-    z-index: 5;
-    font-family: "Bai Jamjuree", sans-serif;
-    font-style: italic;
-    
+  z-index: 5;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: italic;
 }
-.contact-title{
-    display: flex;
-    justify-content: center;
-    color: #029598;
-    padding: 5px;
-    z-index: 4;
+.contact-title {
+  display: flex;
+  justify-content: center;
+  color: #029598;
+  padding: 5px;
+  z-index: 4;
 }
 .line {
-    border: 1px solid #000000;
-    width: 280px;
+  border: 1px solid #000000;
+  width: 280px;
 }
 .form-cont {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    font-family: "Bai Jamjuree", sans-serif;
-    font-style: italic;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-style: italic;
 }
 .form-cont > input {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-decoration: none;
-    border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  border: none;
 }
 .form-cont > textarea {
-    margin-top: 10px;
-    border: none;
+  margin-top: 10px;
+  border: none;
 }
 .contact-date {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 6;
-    padding: 3px;
-    text-align: center;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 6;
+  padding: 3px;
+  text-align: center;
 }
 .contact-date > h2 {
-    color: #029598;
+  color: #029598;
 }
 
-.error-message{
-    color: red;
+.error-message {
+  color: red;
+}
+.btn-contact {
+  background: #029598;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-top: 20px;
+  border: none;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #fff;
+  padding: 5px;
+  height: 55px;
+  font-size: 2ch;
 }
 /* RESPONSIVE */
 
 @media screen and (min-width: 768px) {
-    .geo-contact-bot {
-        height: 100px;
-        rotate: 270deg;
-        right: -19px;
-    }
-    .contact-container {
-        display: flex;
-        flex-direction: row-reverse;
-        text-align: left;
-        height: 890px;
-    }
-    .contact {
-        display: flex;
-        align-items: stretch;
-        flex-direction: column;
-        text-align: left;
-        padding: 60px;
-        height: 565px;
-        justify-content: space-between;
-        width: 1036px;
-    }
-    
-    .contact-date{
-        justify-content: flex-end;
-        align-items: flex-start;
-        text-align: left;
-    }
-    .btn-app{
-        width: 223px;
-        height: 41px;
-    }
-    .geo-contact{
-        top: 1920px;
-        height: 190px;
-    }
-    .line{
-        width: 380px;
-    }
-    .contact-title{
-        justify-content: left;
-        z-index: 4;
-        padding: 10px;
-    }
-    .contact-title >h2 {
-        z-index: 2;
-    }
-}
-@media screen and (min-width: 1080px){
-    
-    
-    .contact-container{
-        width: 100%;
-        display: flex;
-        height: 460px;
-    }
-    .contact-date{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .contact-date >h3{
-        text-align: left;
-        font-size: 13px;
-        
-    }
-    .contact-date >h2{
-        font-size: 20px;
-    }
-    .form-cont{
-        font-size: 10px;
-        width: 55%;
-    }
-   
-    .contact{
-        padding: 0px;
-        padding-left: 190px;
-        display: flex;
-        justify-content: flex-start;
-        height: 465px;
-        
-    }
-    .contact > h3 {
-        font-size: 25px;
-    }
-    .contact-title > h2{
-        font-size: 25px;
-    }
-    .geo-contact-bot{
-        top: 1908px;
-        height: 200px;
-        right: -51px;
-    }
-    .geo-contact{
-        top: 1624px;
-        height: 200px;
-    }
-}
-@media screen and (min-width: 1360px){
-    .contact{
-        height: 585px;
-    }
-    .geo-contact{
-        top: 1887px;
-    }
-    .geo-contact-bot{
-        top: 2290px;
-    }
-}
-@media screen and (min-width: 1440px){
-    .geo-contact{
-        top: 2112px;
-    }
-    .geo-contact-bot{
-        top: 2520px;
-    }
+  .geo-contact-bot {
+    height: 100px;
+    rotate: 270deg;
+    right: -19px;
   }
+  .contact-container {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    height: 890px;
+  }
+  .contact {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: left;
+    padding: 60px;
+    height: 565px;
+    justify-content: space-between;
+    width: 1036px;
+  }
+
+  .contact-date {
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .btn-app {
+    width: 223px;
+    height: 41px;
+  }
+  .geo-contact {
+    top: 1920px;
+    height: 190px;
+  }
+  .line {
+    width: 380px;
+  }
+  .contact-title {
+    justify-content: left;
+    z-index: 4;
+    padding: 10px;
+  }
+  .contact-title > h2 {
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .contact-container {
+    width: 100%;
+    display: flex;
+    height: 460px;
+  }
+  .contact-date {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contact-date > h3 {
+    text-align: left;
+    font-size: 13px;
+  }
+  .contact-date > h2 {
+    font-size: 20px;
+  }
+  .form-cont {
+    font-size: 10px;
+    width: 55%;
+  }
+
+  .contact {
+    padding: 0px;
+    padding-left: 190px;
+    display: flex;
+    justify-content: flex-start;
+    height: 465px;
+  }
+  .contact > h3 {
+    font-size: 25px;
+  }
+  .contact-title > h2 {
+    font-size: 25px;
+  }
+  .geo-contact-bot {
+    top: 1908px;
+    height: 200px;
+    right: -51px;
+  }
+  .geo-contact {
+    top: 1624px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .contact {
+    height: 585px;
+  }
+  .geo-contact {
+    top: 1887px;
+  }
+  .geo-contact-bot {
+    top: 2290px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .geo-contact {
+    top: 2112px;
+  }
+  .geo-contact-bot {
+    top: 2520px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .contact {
+    
+    margin-top: 30px;
+  }
+  .geo-contact {
+    top: 3240px;
+    height: 302px;
+  }
+  .contact-container {
+    justify-content: flex-end;
+   
+  }
+  .contact > h3 {
+    font-size: 5ch;
+  }
+  .contact-title > h2 {
+    font-size: 6ch;
+  }
+  .contact-date {
+    height: 930px;
+    margin-left: 40px;
+  }
+  .contact-date > h2 {
+    font-size: 6ch;
+  }
+  .contact-date > h3 {
+    font-size: 3ch;
+  }
+  .form-cont {
+    font-size: 2.3ch;
+  }
+  .contact-title {
+    margin-top: 20px;
+  }
+  .btn-contact{
+    width: 380px;
+  }
+  .geo-contact-bot{
+    top: 4070px;
+    height: 330px;
+    right: -60px;
+  }
+}
 @media screen and (min-width: 2560px) {
-    .contact{
-        height: 1390px;
-        display: flex;
-        justify-content: center;
-    }
-    .contact-container{
-        justify-content: start;
-    }
-    .contact > h3 {
-        font-size: 5ch;
-    }
-    .contact-title > h2{
-        font-size: 6ch;
-    }
-    .form-cont{
-        font-size: 3ch;
-    }
-    .contact-date{
-        height: 1250px;
-        margin-left: 40px;
-    }
-    .contact-date >h2{
-        font-size: 6ch;
-    }
-    .contact-date >h3{
-        font-size: 3ch;
-        
-       
-    }
-    .geo-contact{
-        top: 4170px;
-        height: 400px;
-    }
-    .geo-contact-bot{
-        top: 5055px;
-        height: 500px;
-        right: -95px;
-    }
+  .contact {
+    height: 1390px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-container {
+    justify-content: start;
+  }
+  .contact > h3 {
+    font-size: 5ch;
+  }
+  .contact-title > h2 {
+    font-size: 6ch;
+  }
+
+  .contact-date {
+    height: 1250px;
+    margin-left: 40px;
+  }
+  .contact-date > h2 {
+    font-size: 6ch;
+  }
+  .contact-date > h3 {
+    font-size: 3ch;
+  }
+  .geo-contact {
+    top: 4170px;
+    height: 400px;
+  }
+  .geo-contact-bot {
+    top: 5055px;
+    height: 500px;
+    right: -95px;
+  }
 }
