@@ -19,7 +19,7 @@ const Services = () => {
             <h2>WEB 3.0</h2>
             <p className="services-info">
               Innovamos de forma permanente y sabemos que la web 3.0 es lo que
-              se viene. Consutános por las soluciones en blockchain y llega mas
+              se viene. Consultános por las soluciones en blockchain y llega mas
               rápido al futuro lector.
             </p>
           </div>
