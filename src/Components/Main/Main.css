@@ -41,6 +41,11 @@
 }
 .highlight {
   color: #029598;
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }
 .main-content {
   margin-top: 80px;
