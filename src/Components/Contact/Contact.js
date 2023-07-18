@@ -102,7 +102,7 @@ const Contact = () => {
           <h2>DATOS DE CONTACTO</h2>
           <h3>Viamonte 5263,Chacras de Coria <br></br>Luján de Cuyo,Mendoza.</h3>
           <h3>Hola@innovis.com.ar</h3>
-          <h3>+54 9 261 513 2968</h3>
+          <h3>+54 9 261 573 2968</h3>
           <h3>+54 9 261 516 3469</h3>
           <h3>+54 9 261 622 5439</h3>
         </div>
